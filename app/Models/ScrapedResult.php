@@ -12,7 +12,11 @@ class ScrapedResult extends Model
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
+<<<<<<< HEAD:app/Models/ScrapedResult.php
     protected $allowedFields    = ['data', 'status', 'website'];
+=======
+    protected $allowedFields    = ['website', 'data', 'status'];
+>>>>>>> 37aae129d596a073cb6d099b1d71a746200d236f:app/Models/ScrapeModel.php
 
     protected bool $allowEmptyInserts = false;
     protected bool $updateOnlyChanged = true;
