@@ -38,9 +38,19 @@ composer --version
 ### 2. Clone Repository
 
 ```bash
-git clone https://github.com/username/nama-repo.git
-cd nama-repo
+git clone https://github.com/AnataKyoya/semua-tugas-pkl.git
+cd semua-tugas-pkl
 ```
+
+atau
+
+### ⚠️ Cara 3: Download ZIP via GitHub UI (tanpa Git)
+
+Kalau tidak perlu history commit, bisa pakai tool seperti **[download-directory.github.io](https://download-directory.github.io)**:
+
+1. Buka file/folder di GitHub
+2. Copy URL-nya
+3. Paste ke situs tersebut → langsung download ZIP folder itu saja
 
 ---
 
