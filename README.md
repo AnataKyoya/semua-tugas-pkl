@@ -1,8 +1,4 @@
-# 🕷️ ClaudeCrawl — Web Scraper berbasis CodeIgniter 4
-
-Aplikasi web scraper berbasis **CodeIgniter 4** yang mendukung scraping URL otomatis maupun file HTML lokal. Dilengkapi dengan **PipelineParser** yang fleksibel untuk mengekstrak data dari berbagai struktur HTML menggunakan CSS selector yang diperkaya dengan pseudo-selector kustom.
-
----
+# Tugas PKL Elecomp
 
 ## 📋 Requirements
 
@@ -13,9 +9,28 @@ Aplikasi web scraper berbasis **CodeIgniter 4** yang mendukung scraping URL otom
 
 ---
 
+### 1. Clone Repository
+
+```bash
+git clone https://github.com/AnataKyoya/semua-tugas-pkl.git
+cd semua-tugas-pkl
+```
+
+atau
+
+### ⚠️ Cara 3: Download ZIP via GitHub UI (tanpa Git)
+
+Kalau tidak perlu history commit, bisa pakai tool seperti **[download-directory.github.io](https://download-directory.github.io)**:
+
+1. Buka file/folder di GitHub
+2. Copy URL-nya
+3. Paste ke situs tersebut → langsung download ZIP folder itu saja
+
+---
+
 ## 🚀 Instalasi
 
-### 1. Install Composer
+### 2. Install Composer
 
 Jika belum terinstall, unduh dan install Composer terlebih dahulu:
 
@@ -32,25 +47,6 @@ Verifikasi instalasi:
 ```bash
 composer --version
 ```
-
----
-
-### 2. Clone Repository
-
-```bash
-git clone https://github.com/AnataKyoya/semua-tugas-pkl.git
-cd semua-tugas-pkl
-```
-
-atau
-
-### ⚠️ Cara 3: Download ZIP via GitHub UI (tanpa Git)
-
-Kalau tidak perlu history commit, bisa pakai tool seperti **[download-directory.github.io](https://download-directory.github.io)**:
-
-1. Buka file/folder di GitHub
-2. Copy URL-nya
-3. Paste ke situs tersebut → langsung download ZIP folder itu saja
 
 ---
 
@@ -93,6 +89,12 @@ php spark serve
 ```
 
 Buka browser: `http://localhost:8080`
+
+---
+
+## 🕷️ ClaudeCrawl — Web Scraper berbasis CodeIgniter 4
+
+Aplikasi web scraper berbasis **CodeIgniter 4** yang mendukung scraping URL otomatis maupun file HTML lokal. Dilengkapi dengan **PipelineParser** yang fleksibel untuk mengekstrak data dari berbagai struktur HTML menggunakan CSS selector yang diperkaya dengan pseudo-selector kustom.
 
 ---
 
